@@ -1,0 +1,18 @@
+#utilisateur{
+    border: 1px solid salmon;
+    width: 550px;
+    margin:10px ;
+
+}
+#tache{
+    margin-bottom: 10px;
+}
+#messageerreur{
+    color:pink;
+    display:none;
+    
+}
+#erreurmessage{
+    color:blue;
+    display:none;
+}

@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="exo6.css">
 </head>
 <body>
-    <input type="text" id="utilisateur" placeholder="ajouter un utilisateur">
-    <button id="btn">envoyé</button>
-    <script src="exo6.js"></script>
-    <ul id="listutilisateur"></ul>
+    <div class="utilisateur">
+        
+        <input type="text" id="utilisateur" placeholder="ajouter un utilisateur">
+        <p id="meessagerreur">saisir un utilisateur</p>
+        <button id="ajouterutilisateur" onclick="ajouterunutilisateur()">envoyé l'utilisateur</button>
+        <ul id="listutilisateur"></ul>
+    </div>
+
+    <div classe="tache">
+
+        <input type="text" id="tache" placeholder="ajouter une tache">
+        <p id="erreurmessage">saisir une tache</p>
+        <button id="ajoutertache" onclick="ajouterunetache()">envoye la tache</button>
+         <ul id="listetache"></ul>
+         <script src="exo6.js"></script>
+     
+    </div>
 </body>
+
+
 </html>
