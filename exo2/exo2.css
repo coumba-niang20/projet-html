@@ -1,0 +1,9 @@
+.card {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+/* SURVOL */
+.card:hover {
+  background-color: lightblue;
+}

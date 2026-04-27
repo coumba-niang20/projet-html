@@ -1,0 +1,14 @@
+#formulaire{
+    border: 1px solid salmon;
+    width: 550px;
+    margin:10px ;
+
+}
+#nom{
+    margin-bottom: 10px;
+}
+#erreurmessage{
+    color:red;
+    display:none;
+    
+}

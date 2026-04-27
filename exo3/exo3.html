@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exo3.css">
+</head>
+<body>
+    <div class="formulaire">
+        <form>
+            <div class="nom"> 
+                <label for="nom">nom</label>
+                <input type="text" id="nom" name="nom" placeholder="votre nom" required>
+            </div>
+            <div class="age">
+                <label for="age">age</label>
+                <input type="text" id="age" name="age" placeholder="votre age" required>
+            </div>
+            <div class="sexe">
+                <label for="sexe">sexe</label>
+                <label for="homme">homme</label>
+                <input type="radio" id="homme" name="sexe" value="homme" required>
+                <label for="femme">femme</label>
+                <input type="radio" id="femme" name="sexe" value="femme" >
+            </div>
+            <div class="loisirs">
+                <label for="loisirs">loisirs</label>
+                <label for="sport">sport</label>
+
+                <input type="checkbox" id="sport" name="loisirs" value="sport">
+                <label for="danser">danser</label>
+                <input type="checkbox" id="danser" name="loisirs" value="danser" >
+                <label for="chanter">chanter</label>
+                <input type="checkbox" id="chanter" name="loisirs" value="chanter">
+                <p id="erreurmessage">il faut choisir au moins un loisirs</p>
+            </div>
+            <div class="pays">
+                <label for="pays">pays</label>
+                <select name="pays" id="pays">
+                    <option value="">selection un pays </option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Gambie">Gambie</option>
+                    <option value="canada">canada</option>
+                </select>
+            </div>
+            <div class="commentaire">
+                <label for="commentaire">commentaire</label>
+                <textarea name="commentaire" id="commentaire" placeholder="votre commentaire" rows="6" required></textarea>
+            </div>
+            <button id="envoye" onclick="envoyeformulaire()" type="submit">
+                envoye 
+
+            </button>
+
+
+                    
+
+                
+
+            </div>
+
+                
+
+        
+
+        </form>
+        
+
+    </div>
+    
+    <button id="bon">voir plus </button>
+        <script src="javascript.js">
+            
+            
+
+        </script>
+    
+</body>
+</html>
