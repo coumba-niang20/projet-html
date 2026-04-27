@@ -1,9 +1,0 @@
-
-<!DOCTYPE html>	
-	<html lang="fr">
-	
-	</html>
-<p class="text-primary">Ceci est un texte en bleu</p>
-<p class="text-danger">Ceci est un texte en rouge</p>
-<p class="fw-bold">Ceci est un texte en gras</p>
-<p class="text-center">Ceci est centré</p>
